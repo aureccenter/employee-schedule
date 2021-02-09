@@ -1,11 +1,16 @@
 import './App.css';
-import Home from './components/Home';
+import Form from './components/ShiftChangeForm';
+import NavigationBar from './components/Navigationbar';
 import Schedule from './components/Schedule';
 
 function App() {
   return (
     <div>
-      <Schedule/>
+      <NavigationBar />
+      <h1 style={{ textAlign: 'center' }}> Schedule </h1>
+      <Schedule />
+      <h1 style={{ textAlign: 'center' }}> Shift Change </h1>
+      <Form />
     </div>
   );
 }
