@@ -5,7 +5,7 @@ const NavigationBar = () => {
   return (
     <>
       <Navbar bg='dark' expand='lg' variant='dark' className='mb-5'>
-        <Navbar.Brand href='#Calendar' className='pl-3'>
+        <Navbar.Brand href='../' className='pl-3'>
           AU Rec Center
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
