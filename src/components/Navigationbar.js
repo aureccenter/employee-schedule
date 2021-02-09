@@ -11,10 +11,8 @@ const NavigationBar = () => {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav' className='pl-3'>
           <Nav className='ml-auto pr-3'>
-            <Nav.Link href='aureccenter.github.io/#Calendar'>Calendar</Nav.Link>
-            <Nav.Link href='aureccenter.github.io#Reservation'>
-              Reservation
-            </Nav.Link>
+            <Nav.Link href='../#Calendar'>Calendar</Nav.Link>
+            <Nav.Link href='../#Reservation'>Reservation</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
